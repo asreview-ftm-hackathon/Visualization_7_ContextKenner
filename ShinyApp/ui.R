@@ -36,6 +36,15 @@ fluidPage(
   ),
   
   fluidRow(
+    id="text",
+    
+    column(12,
+      verbatimTextOutput('txt')
+    )
+    
+  ),
+  
+  fluidRow(
     column(4,
       id = "score",
       
