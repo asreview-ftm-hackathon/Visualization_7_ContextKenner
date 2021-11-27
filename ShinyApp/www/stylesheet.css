@@ -1,0 +1,23 @@
+body {
+  background-color: #f8e894;
+  font-family: 'Lucida Console';
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left !important;
+  font-size: 30px;
+}
+
+.dataTables_wrapper .dataTables_length {
+  float: right !important;
+}
+
