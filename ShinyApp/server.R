@@ -1,5 +1,6 @@
 library(shiny)
 library(shinyjs)
+library(quanteda)
 
 function(input, output, session) {
   # choose columns to display
@@ -25,14 +26,10 @@ function(input, output, session) {
     cat(data[c(input$raw_rows_selected),c('abstract')])
   })
   
-  output$bel = renderPrint({
-    cat("[score hier]")
-  })
-  
-  output$context <- renderPlot({
-    
-    # Render a barplot
-    barplot(diamonds2$carat)
-  })
+  # output$ctxt = renderUI({
+  #   # input$raw_search
+  #   #tokens(data[c(input$raw_rows_current),c('abstract')])
+  #   kwic(x = corpus(data, docid_field = "id", text_field = "abstract"), pattern = input$raw_search)
+  # })
   
 }

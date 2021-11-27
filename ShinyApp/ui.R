@@ -36,30 +36,22 @@ fluidPage(
   ),
   
   fluidRow(
-    id="text",
+    id="txt",
     
     column(12,
       verbatimTextOutput('txt')
     )
     
-  ),
+  ) #,
   
-  fluidRow(
-    column(4,
-      id = "score",
-      
-      h2("Belangrijk?"),
-      verbatimTextOutput('bel')
-    ),
-    
-    column(8,
-      id = "ctxt",
-      
-      p("Probeer ook eens deze verwante zoektermen:"),
-      plotOutput("context")
-    )
-    
-  )
+  # fluidRow(
+  #   id="ctxt",
+  #   
+  #   column(12,
+  #          verbatimTextOutput('ctxt')
+  #   )
+  #   
+  # )
  
 )
 
