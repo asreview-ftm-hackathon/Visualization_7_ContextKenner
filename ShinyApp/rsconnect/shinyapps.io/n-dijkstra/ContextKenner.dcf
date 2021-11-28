@@ -1,0 +1,13 @@
+name: ContextKenner
+title: ContextKenner
+username:
+account: n-dijkstra
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5216876
+bundleId: 5301191
+url: https://n-dijkstra.shinyapps.io/ContextKenner/
+when: 1638093311.19896
+lastSyncTime: 1638093311.19896
+asMultiple: FALSE
+asStatic: FALSE

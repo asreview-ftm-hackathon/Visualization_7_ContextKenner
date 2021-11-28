@@ -42,16 +42,7 @@ fluidPage(
       verbatimTextOutput('txt')
     )
     
-  ) #,
-  
-  # fluidRow(
-  #   id="ctxt",
-  #   
-  #   column(12,
-  #          verbatimTextOutput('ctxt')
-  #   )
-  #   
-  # )
+  )
  
 )
 
